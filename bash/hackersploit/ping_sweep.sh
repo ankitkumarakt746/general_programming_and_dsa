@@ -2,8 +2,10 @@
 
 #Simple Ping sweep script
 
-read -p "Please enter the first 3 octets of the subnet (e.g, 192.168.1): " SUBNET        #echo "Please enter the subnet: "
-                                                                        #read SUBNET
+read -p "Please enter the first 3 octets of the subnet (e.g, 192.168.1): " SUBNET
+#above line is same as,
+#echo "Please enter the subnet: "
+#read SUBNET
 
 read -p "Please enter start IP (e.g, 56): " START
 read -p "Please enter end IP (e.g, 59): " END
