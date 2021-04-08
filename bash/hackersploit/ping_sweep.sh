@@ -2,8 +2,6 @@
 
 #Simple Ping sweep script
 
-LINES=""
-
 read -p "Please enter the first 3 octets of the subnet (e.g, 192.168.1): " SUBNET        #echo "Please enter the subnet: "
                                                                         #read SUBNET
 
@@ -25,10 +23,3 @@ do
 done
 
 rm -rf .temp
-
-
-
-
-#Proposed modification ideas:
-#Supress the ping output display on console and if recieved value is 1 in the resultant ping output
-#then show that it responded with pong else show not found 
