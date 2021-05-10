@@ -5,22 +5,14 @@
 
 #include<iostream>
 
-int recordBreakingDay(int arr[], int n){
-    int c1;
+void recordBreakingDay(int arr[], int n){
+    int m;
     for(int i=0; i<n; i++){
-        c1=1;
-        for(int j=i-1; j>=0; j--){
-            if(arr[i]<arr[j]){
-                c1=0;
-                break;
-            }
-        }
-
-        if(c1==1 && arr[i]>arr[i+1]){
+        m = max(arr[i-1], arr[i])
+        if(a[i]>std::max() && arr[i]>arr[i+1]){
             std::cout<<i+1;
         }
     }
-    return day+1;
 }
 
 int main(){
