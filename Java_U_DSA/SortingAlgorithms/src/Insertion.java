@@ -12,7 +12,9 @@ public class Insertion {
     }
 
     public static void insertionSort(int[] arr){
-
+        for(int i=0; i<arr.length; i++){
+            
+        }
     }
 
     public static void main(String[] args){
