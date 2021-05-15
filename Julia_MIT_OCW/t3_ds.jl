@@ -80,6 +80,10 @@ my2Darray = [["George", "Martha", "Nicole" ], [456-395, 123-897], [23, 45, 20]]
 # ╔═╡ 69ec9fd5-9b5b-492f-b906-96e918f28e39
 typeof(my2Darray)
 
+# ╔═╡ 125f9944-c4f3-4eec-a4ca-f64527ad0303
+#Accessing elements of 2-D array
+my2Darray[2, 1]          #Syntax - array_name[row, column]
+
 # ╔═╡ 2d9c26d3-6e7d-41e1-bf0e-55a186097ce0
 #Creating array of dimension 3x4 and populating it with random numbers
 rand(3,4)     #By default "rand" poulates array with elements between 0-1
@@ -87,6 +91,10 @@ rand(3,4)     #By default "rand" poulates array with elements between 0-1
 # ╔═╡ 9572a78d-1621-4674-8479-1ac94540486b
 ##Creating array of dimension 3x4x2
 rand(3, 4, 2)
+
+# ╔═╡ a78e6962-65a8-4256-80ad-a36ca7e5f078
+#Array of zeros
+myArray3 = zeros(3, 4)
 
 # ╔═╡ Cell order:
 # ╠═d4bafa80-b4c6-11eb-3434-d5352c3b8d08
@@ -110,5 +118,7 @@ rand(3, 4, 2)
 # ╠═a411b4e2-d31c-4fc0-8884-2f3e587b29da
 # ╠═c185939c-ed8a-4677-bfee-ba7381862dbb
 # ╠═69ec9fd5-9b5b-492f-b906-96e918f28e39
+# ╠═125f9944-c4f3-4eec-a4ca-f64527ad0303
 # ╠═2d9c26d3-6e7d-41e1-bf0e-55a186097ce0
 # ╠═9572a78d-1621-4674-8479-1ac94540486b
+# ╠═a78e6962-65a8-4256-80ad-a36ca7e5f078
